@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "factory-girl": "^5.0.4",
+    "faker": "^4.1.0",
     "jest": "^24.5.0",
     "nodemon": "^1.18.10",
     "sequelize-cli": "^5.4.0",
@@ -18,9 +20,13 @@
     "dev": "nodemon src/server.js --ignore __tests__"
   },
   "dependencies": {
+    "bcrypt": "^3.0.4",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
     "mysql2": "^1.6.5",
+    "nodemailer": "^5.1.1",
     "sequelize": "^5.1.0"
   }
 }
